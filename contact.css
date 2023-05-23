@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+
+  header h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  main {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  form .form-control {
+    border-radius: 0;
+  }
+
+  form textarea {
+    resize: none;
+  }
+
+  form button[type="submit"] {
+    background-color:lightpink;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .contact-info {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-info h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .contact-info ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .contact-info ul li {
+    margin-bottom: 15px;
+  }
+
+  .contact-info strong {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .footerALL {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color:pink
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .social-icons i {
+    font-size: 20px;
+  }
+  
+  .footer-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #777;
+  }
